@@ -43,7 +43,7 @@ nav{
     letter-spacing: 3px;
     font-size: 14px;
     transition: all 0.3s ease 0s;
-
+    animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 
 .nav-links a:hover {
