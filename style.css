@@ -30,10 +30,11 @@ nav{
 .logo{
     background-color: white;
     letter-spacing: 3px;
-    font-size: 14px;
-    padding: 5px;
+    font-size: 16px;
+    padding: 0px 5px 0px 5px ;
     border-radius: 5px;
     font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.16);
 
 }
 
