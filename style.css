@@ -188,6 +188,7 @@ nav{
   .FE{
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.16);
     border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.071);
 
 
   }
@@ -210,5 +211,6 @@ nav{
     font-size: 30px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.16);
     border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.071);
 }
   }
