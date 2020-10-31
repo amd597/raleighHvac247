@@ -51,21 +51,7 @@ function topFunction() {
 }
 
 
-// var sec = new Date();
-// var s = sec.getSeconds;
-// console.log(s);
 
-// var logo = document.getElementById("open");
-
-// function myTimer() {
-
-  // if ( s % 2 == 0){
-  //   logo.setAttribute("style", "color:white");
-  // }else{
-  //   logo.setAttribute("style", "color:black");
-
-//   }
-   
 // }
 var logo = document.getElementById("open");
 var myVar = setInterval(myFunc, 1000);
