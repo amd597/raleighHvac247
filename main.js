@@ -68,16 +68,17 @@ function topFunction() {
    
 // }
 var logo = document.getElementById("open");
-var myVar = setInterval(myFunc, 100);
+var myVar = setInterval(myFunc, 1000);
 
 
 function myFunc(){
   var d = new Date();
   var sec = d.getSeconds();
+  console.log(sec);
  
   if ( sec % 2 == 0){
     
-    logo.setAttribute("style", "color:white");
+    logo.setAttribute("style", "color:gray");
   } else{
     logo.setAttribute("style", "color:black");
 
