@@ -32,10 +32,12 @@ navSlide();
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
+mybutton.style.display = "none"
 window.onscroll = function() {scrollFunction()};
+  // console.log(window.onscroll);
 
 function scrollFunction() {
-  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+  if (document.body.scrollTop > 500|| document.documentElement.scrollTop > 500) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -46,4 +48,38 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+
+// var sec = new Date();
+// var s = sec.getSeconds;
+// console.log(s);
+
+// var logo = document.getElementById("open");
+
+// function myTimer() {
+
+  // if ( s % 2 == 0){
+  //   logo.setAttribute("style", "color:white");
+  // }else{
+  //   logo.setAttribute("style", "color:black");
+
+//   }
+   
+// }
+var logo = document.getElementById("open");
+var myVar = setInterval(myFunc, 100);
+
+
+function myFunc(){
+  var d = new Date();
+  var sec = d.getSeconds();
+ 
+  if ( sec % 2 == 0){
+    
+    logo.setAttribute("style", "color:white");
+  } else{
+    logo.setAttribute("style", "color:black");
+
+  }
 }

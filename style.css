@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
 
 *{
     margin: 0px;
@@ -9,8 +11,8 @@
    
 }
 body{
-    /* height: 2000px; */
-    background-color: aqua;
+    height: 2000px;
+    /* background-color: aqua; */
     
 }
 
@@ -26,9 +28,13 @@ nav{
 }
 
 .logo{
-    color: rgba(255, 255, 255, 0.954);
+    background-color: white;
     letter-spacing: 3px;
     font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 .nav-links{
@@ -142,7 +148,7 @@ nav{
     /* display: none; */
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 20px;
     z-index: 99;
     font-size: 16px;
     border: none;
@@ -152,7 +158,18 @@ nav{
     cursor: pointer;
     padding: 15px;
     border-radius: 50%;
-    box-shadow: 0 0 10px gray;
-    
-  }
+    /* box-shadow: 0 0 10px gray; */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.16);
+}
   
+  #myBtn:hover{
+      background-color: #752dd277;
+     
+
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+
+  }
