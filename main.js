@@ -60,7 +60,7 @@ var myVar = setInterval(myFunc, 1000);
 function myFunc(){
   var d = new Date();
   var sec = d.getSeconds();
-  console.log(sec);
+
  
   if ( sec % 2 == 0){
     
@@ -70,3 +70,11 @@ function myFunc(){
 
   }
 }
+
+
+const width  = window.innerWidth || document.documentElement.clientWidth || 
+document.body.clientWidth;
+const height = window.innerHeight|| document.documentElement.clientHeight|| 
+document.body.clientHeight;
+
+console.log(width, height);

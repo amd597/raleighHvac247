@@ -14,7 +14,7 @@
 body{
     height: 2000px;
     width: 100vw;
-    /* background-color: gray; */
+    background-color: gray;
     
 }
 
@@ -94,7 +94,7 @@ nav{
 
 } */
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:600px){
     body{
         overflow-x: hidden;
     }
